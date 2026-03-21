@@ -64,24 +64,28 @@ const tasks: Task[] = [
     type: 'nlp',
     description: 'Sentiment Analysis',
     input: '"The new AI agent platform is revolutionizing development workflows!"',
+    verified: false,
   },
   {
     id: '2',
     type: 'classification',
     description: 'Image Classification',
     input: 'Input: 🚀 rocket emoji\nExpected: "space"',
+    verified: false,
   },
   {
     id: '3',
     type: 'regression',
     description: 'Price Prediction',
     input: '"ETH price in 24h based on current trend"',
+    verified: false,
   },
   {
     id: '4',
     type: 'image',
     description: 'Style Transfer',
     input: '"Convert image to cyberpunk style"',
+    verified: false,
   },
 ];
 
